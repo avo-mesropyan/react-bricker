@@ -1,0 +1,14 @@
+
+.work-card-item {
+  width: calc(50% - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}

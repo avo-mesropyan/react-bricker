@@ -1,0 +1,73 @@
+
+.header-block{
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #002633;
+  padding: 0 30px;
+}
+
+.logo a{
+  font-size: 35px;
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.menu-block ul{
+  display: flex;
+  gap: 20px;
+  a{
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    position: relative;
+  }
+}
+
+
+
+
+
+.menu-block a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  visibility: hidden;
+  background-color: red;
+  left: 0;
+  bottom: -10px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+
+.menu-block a:hover::after,
+a.active::after {
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

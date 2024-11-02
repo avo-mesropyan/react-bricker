@@ -1,0 +1,23 @@
+.section-work {
+  background-color: #002633;
+  min-height: 500px;
+}
+
+.work-block{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.work-list{
+  width: calc(50% - 10px);
+  img{
+    width: 100%;
+  }
+}
+.work-card{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-height: 414px;
+}
